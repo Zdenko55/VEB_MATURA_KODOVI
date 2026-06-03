@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Galerija</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Foto galerija</h1>
+    <div class="meni">
+        <a href="pocetna.html" class="active">Pocetna</a>
+        <a href="o_autoru.html">O autoru</a>
+        <a href="uputstvo.html">Uputstvo</a>
+        <div class="text">Zavrsni ispit</div>
+    </div>
+
+    <div class="image-paragraph">
+        <div id="imgtext">Kliknite na sliku da biste videli opis.</div>
+    </div>
+
+    <div class="container">
+        <div class="image-central">
+            <img id="expandedImg" src="slike/mapa.jpg">
+        </div>
+
+        <div class="row">
+            <img src="slike/mapa.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika1.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika2.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika3.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika4.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika5.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika6.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika7.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika8.jpg" class="image-small" onclick="myFunction(this);">
+            <img src="slike/slika9.jpg" class="image-small" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
